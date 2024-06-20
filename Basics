@@ -1,0 +1,21 @@
+/*initializing multi-dimensional array
+* elementType [][] arrayRefVar;
+* example --> int [5][5] matrix;
+* int [][] array = {{1,2,3}, {1,2,3}, {1,2,3}, {1,2,3}, {1,2,3}}
+* Obtaining the Lengths of Two-Dimensional Arrays
+* x = new int [3][4], x[0], x[1], x[2] these are one-dimensional arrays (Rows)
+* Inside of these arrays (Rows) contains four elements.
+* x.length is 3 (Row length). x[0].length, x[1].length, and x[2].length are 4 (Column length).
+*
+* Ragged Arrays
+* Each row in a two-dimensional array is itself an array, which means the rows can have different lengths.
+*
+* Example --> int [][] triganleArray = {
+              {1, 2, 3, 4, 5},
+              {2, 3, 4, 5},
+              {3, 4, 5},
+              {5}
+             };
+
+
+
